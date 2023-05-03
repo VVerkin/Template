@@ -23,7 +23,7 @@
         <img class="logo" src="./img/logo/Logo.svg" alt="Логотип">
         <div class="phone-call">
           <a class="phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
-          <a class="call-me" href="#">Перезвоните мне</a>
+          <a class="call-me" href="#call-back">Перезвоните мне</a>
         </div>
       </div>
 
@@ -52,15 +52,17 @@
       </div>
     </section>
 
-    <section class="call-back">
+    <section id="call-back" class="call-back">
       <div class="container">
         <h2 class="call-back__title">Остались вопросы?</h2>
         <form class="call-back__form" id="call-back-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
           <fieldset class="call-back__contacts">
             <legend class="contacts__legend">Оставьте номер телефона, и мы перезвоним вам</legend>
-            <label class="contacts__label"><input class="contacts__input" type="text" name="name" required placeholder="Ваше имя"></label>
-            <label class="contacts__label"><input class="contacts__input" type="phone" name="phone" required placeholder="Тедефон"></label>
-            <label class="contacts__label"><input class="contacts__input" type="email" name="email" required placeholder="E-mail"></label>
+            <div class="contacts__wrapper"> 
+              <input class="contacts__input" type="text" name="name" required placeholder="Ваше имя">
+              <input class="contacts__input" type="phone" name="phone" required placeholder="Тедефон">
+              <input class="contacts__input" type="email" name="email" required placeholder="E-mail">
+            </div>
           </fieldset>
           <button class="call-back__btn" name="call-me" required form="call-back-form" type="submit">позвоните мне</button>
         </form>
@@ -68,8 +70,31 @@
     </section>
 
   </main>
-  <footer class="footer">
 
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer__item">
+
+        <div class="footer__left">
+          <img class="logo" src="img/logo/Logo.svg" alt="">
+          <div class="copy">
+            © 2022 XXXcompany.
+            Все права защищены. </div>
+        </div>
+
+        <div class="footer__middle">
+          Сделано в Ивановым Иваном
+        </div>
+
+        <div class="footer__right">
+          <a class="phone" href="tel:+79625561234">+7 (962) 556 - 123</a>
+          <a class="call-me" href="#call-back">Перезвоните мне</a>
+        </div>
+
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>

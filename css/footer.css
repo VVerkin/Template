@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  margin: 0 auto;
+  padding: 45px 0;
+
+  min-height: 158px;
+  background: var(--black-blue-color);
+}
+
+.footer__item {
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer__left {
+  display: flex;
+  gap: 19px;
+}
+
+.copy {
+  white-space: pre-line;
+}
+
+.footer__middle {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
