@@ -56,6 +56,7 @@
 
 .advantages__list {
   display: flex;
+  padding: 0 157px;
   gap: 50px;
   counter-reset: count 0;
 }

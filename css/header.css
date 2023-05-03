@@ -74,7 +74,7 @@
   color: var(--white-75-color);
 }
 
-.content__btn {
+.content__more-btn {
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -95,12 +95,12 @@
   transition-timing-function: ease-in-out;
 }
 
-.content__btn:hover {
+.content__more-btn:hover {
   background: var(--light-blue-color);
   box-shadow: 0 0 10px 10px rgba(32, 184, 218, 0.3);
 }
 
-.content__btn:active {
+.content__more-btn:active {
   background: var(--dark-blue-color);
   box-shadow: 0 0 10px 10px rgba(6, 74, 89, 0.3);
 }
