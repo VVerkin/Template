@@ -64,7 +64,7 @@
   width: 218px;
   height: 48px;
 
-  background: #15A9CB;
+  background: var(--blue-color);
   box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
   border: none;
@@ -73,7 +73,7 @@
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-
+  margin-bottom: 50px;
   color: var(--white-color);
 }
 
@@ -85,4 +85,18 @@
 .call-back__btn:active {
   background: var(--dark-blue-color);
   box-shadow: 0 0 10px 10px rgba(6, 74, 89, 0.3);
+}
+
+.personal__date {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  text-align: center;
+
+}
+
+.personal__link {
+  border-bottom: 1px solid var(--dark-blue-color);
+  color: var(--dark-blue-color);
 }
