@@ -30,9 +30,7 @@
 
 .phone-call {
   display: flex;
-  margin: 0;
-  padding: 0;
-  max-width: 209px;
+  width: 209px;
   flex-direction: column;
   align-items: center;
   z-index: 1;
@@ -166,6 +164,10 @@
   .phone,
   .call-me {
   display: none;
+  }
+
+  .phone-call {
+    width: 24px;
   }
 
   .phone-handset {
