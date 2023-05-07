@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 40px 0 120px 0;
   max-width: 100%;
-  min-height: 732px;
+  min-height: 729px;
   background: url('../img/image/header_bg.jpg') center center/cover no-repeat;
 } 
 
@@ -30,19 +30,22 @@
 
 .phone-call {
   display: flex;
-  width: 209px;
+  width: 210px;
+  min-height: 29.15px;
   flex-direction: column;
   align-items: center;
   z-index: 1;
-  gap: 3px;
+  gap:2.85px;
 }
 
 .phone {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 23.85px;
+  line-height: 29px;
 }
 
 .call-me {
+  padding-top: 2px;
+  display:block;
   font-size: 16px;
   line-height: 19px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -68,7 +71,7 @@
   line-height: 61px;
   text-align: center;
   z-index: 1;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   color: var(--white-86-color);
 }
 
@@ -77,18 +80,20 @@
   font-size: 22px;
   line-height: 31px;
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
   color: var(--white-75-color);
 }
 
 .header__content-btn {
   display: block;
   margin: 0 auto;
+  padding: 12px 48px;
   width: 200px;
   height: 48px;
+
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
   color: var(--white-color);
 
   text-align: center;
