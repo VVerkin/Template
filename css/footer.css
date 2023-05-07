@@ -29,6 +29,11 @@
 }
 
 @media (max-width: 1024px) {
+
+  .footer {
+    padding-top: 24px;
+    min-height: 135px;
+  }
   
   .footer-autor {
     opacity: 0.5;

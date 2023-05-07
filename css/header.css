@@ -88,7 +88,7 @@
   display: block;
   margin: 0 auto;
   padding: 12px 48px;
-  width: 200px;
+  width: 202px;
   height: 48px;
 
   font-weight: 500;
@@ -107,12 +107,12 @@
   transition-timing-function: ease-in-out;
 }
 
-.content__more-btn:hover {
+.header__content-btn:hover {
   background: var(--light-blue-color);
   box-shadow: 0 0 10px 10px rgba(32, 184, 218, 0.3);
 }
 
-.content__more-btn:active {
+.header__content-btn:active {
   background: var(--dark-blue-color);
   box-shadow: 0 0 10px 10px rgba(6, 74, 89, 0.3);
 }
@@ -129,12 +129,13 @@
   }
 
   .phone-call {
+    max-width: 186px;
     gap: 4px;
   }
 
   .phone {
     font-size: 21px;
-    line-height: 25px;
+    line-height: 24.61px;
   }
 
   .call-me {
@@ -148,19 +149,19 @@
   }
 
   .header__content {
-    max-width: 780px;
+    max-width: 754px;
   }
 
-  .content__title {
+  .header__content-title {
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 28px;
   }
 
-  .content__text {
+  .header__content-text {
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 60px;
+    margin-bottom: 57px;
   }
   
 }
@@ -204,13 +205,13 @@
     max-width: 290px;
   }
 
-  .content__title {
+  .header__content-title{
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 23px;
   }
 
-  .content__text {
+  .header__content-text {
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 54px;

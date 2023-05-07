@@ -93,33 +93,37 @@
   .advantages__title {
     font-size: 32px;
     line-height: 38px;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
   }
   
   .advantages__subtitle {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
   }
   
   .advantages__subtitle:before {
+    top: 9px;
+    left: calc(50% - 88px);
     width: 40px;
   }
   
   .advantages__subtitle:after {
+    top: 9px;
+    left: calc(50% + 46px);
     width: 40px;
   }
   
   .advantages__text {
     max-width: 666px;
-    margin: 0 auto 50px;
+    margin: 0 auto 58px;
     font-size: 16px;
     line-height: 23px;
   }
   
   .advantages__list {
-    max-width: 812px;
-    gap: 25px;
+    max-width: 870px;
+    gap: 50px;
     
   }
   
