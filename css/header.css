@@ -62,7 +62,7 @@
   margin: 0 auto;
 }
 
-.content__title {
+.header__content-title {
   font-weight: 900;
   font-size: 52px;
   line-height: 61px;
@@ -72,7 +72,7 @@
   color: var(--white-86-color);
 }
 
-.content__text {
+.header__content-text {
   font-weight: 400;
   font-size: 22px;
   line-height: 31px;
@@ -81,7 +81,7 @@
   color: var(--white-75-color);
 }
 
-.content__more-btn {
+.header__content-btn {
   display: block;
   margin: 0 auto;
   width: 200px;

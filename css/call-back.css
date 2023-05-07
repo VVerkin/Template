@@ -28,7 +28,7 @@
   color: var(--white-86-color);
 }
 
-.contacts__legend {
+.call-back__contacts-legend {
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
@@ -37,7 +37,7 @@
   margin-bottom: 50px;
 }
 
-.contacts__wrapper {
+.call-back__contacts-wrapper {
   display: flex;
   flex-direction: column;
   gap: 21px;
@@ -47,7 +47,7 @@
   margin-bottom: 50px;
 }
 
-.contacts__input {
+.call-back__contacts-input {
   width: 100%;
   min-height: 44px;
   font-weight: 400;
@@ -90,7 +90,7 @@
   box-shadow: 0 0 10px 10px rgba(6, 74, 89, 0.3);
 }
 
-.personal__date {
+.personal-date {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
@@ -99,7 +99,7 @@
 
 }
 
-.personal__link {
+.personal-date__link {
   border-bottom: 1px solid var(--dark-blue-color);
   color: var(--dark-blue-color);
 }
