@@ -155,28 +155,45 @@
 
   .call-back {
     min-height: 398px;
-  } 
+  }  
   
   .call-back__title {
+    padding-top: 4px;
+    padding-left: 8px;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 16px;
-  }
-  
-  .call-back__contacts-legend {
-    font-size: 12px;
-    line-height: 14px;
+    margin-bottom: 12px;
   }
   
   .call-back__contacts-wrapper {
     gap: 15px;
-    margin-bottom: 45px;
+    margin-bottom: 44px;
+  }
+
+  .call-back__contacts-legend {
+    padding: 0;
+    max-width: 290px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 35px;
   }
   
   .call-back__contacts-input {
     width: 100%;
-    max-height: 28px;
+    height: 28.5px;
+    padding: 6px 18px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .call-back__btn {
+    width: 174px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 26px;
+
   }
 
   .personal-date {
