@@ -167,6 +167,9 @@
 }
 
   @media (max-width: 480px) {
+  .header {
+    background-position: left;
+  }
   .phone,
   .call-me {
   display: none;
